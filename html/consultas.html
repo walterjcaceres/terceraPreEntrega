@@ -30,25 +30,44 @@
     </header>
     <br>
    <main>
-<form>
-    <h1>Dejanos tu consulta aqui</h1>
-    <label for="">Nombre</label>
-    <input type="text">
-    <br><br>
-    <label for="">Apellido</label>
-    <input type="text">
-    <br><br>
-    <label for="">Email</label>
-    <input type="email">
-    <br><br>
+    <h1>Dejanos tu consulta aquí</h1>
 
-    <textarea name="" id="" cols="30" rows="10"></textarea>
-    <br><br>
-    <input type="submit">
-    <input type="reset">
+    <form class="m-4 conteiner">
 
-</form>
-</main>
+        <div class="row justify-content-center">
+            <div class="mb-3 col-xl-4 col-md-6 formu">
+                <label class="form-label">Nombre</label>
+                <input type="text" class="form-control">
+                
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="mb-3 col-xl-4 col-md-6 formu">
+                <label class="form-label">Apellido</label>
+                <input type="text" class="form-control">
+                
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="form-floating mb-3 col-xl-4 col-md-6 formu">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                <label for="floatingTextarea2">Escribe tu consulta aquí</label>
+            </div>
+        </div>
+        
+
+        <div class="row justify-content-center">
+            <div class="mb-3 col-xl-4 col-md-6 form-check">
+             <button type="submit" class="btn btn-primary">Enviar</button>
+             <button type="reset" class="btn btn-primary">Borrar</button>
+            </div>
+        </div>
+  </form>
+
+
+    </main>
     <footer>
         <hr>
         <h6>Ayuda Online S.A. - Todos los derechos reservados</h6>
