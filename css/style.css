@@ -24,7 +24,7 @@ nav ul li:hover {
 }
 nav ul li a {
   text-decoration: none;
-  color: midnightblue;
+  color: royalblue;
   font-weight: bold;
 }
 
@@ -49,6 +49,11 @@ h1 {
 .textoCarousel {
   color: white;
   background-color: black;
+}
+
+a {
+  text-decoration: none;
+  color: royalblue;
 }
 
 footer {

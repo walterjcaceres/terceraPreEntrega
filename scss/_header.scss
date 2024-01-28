@@ -18,8 +18,7 @@ nav {
     }
 
     a {
-      text-decoration: none;
-      color: midnightblue;
+      @include propiedades;
       font-weight: bold;
     }
   }
