@@ -1,6 +1,19 @@
+main{
+  background-image: url(../img/fondo.png);
+  background-size: auto;
+  background-position: top;
+  background-repeat: no-repeat;
+  
+  }
+
 h1{
     background-color: rgb(255, 237, 199);
     text-align: center;
+  }
+
+  .imagenAjustada{
+    object-fit: cover;
+
   }
 
 .imagen img {
