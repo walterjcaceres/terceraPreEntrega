@@ -67,9 +67,30 @@ a {
   color: royalblue;
 }
 
+.verMas {
+  font-size: larger;
+}
+
 footer {
+  padding: 100px;
   text-align: center;
   color: grey;
+  background-color: rgb(65, 65, 65);
+}
+footer a {
+  text-decoration: none;
+  color: grey;
+}
+footer a .bi-instagram:hover {
+  background: linear-gradient(to right top, orange, red, blueviolet);
+  color: antiquewhite;
+  border-radius: 30%;
+}
+footer a .bi-facebook:hover {
+  color: #3b5998;
+}
+footer a .bi-twitter:hover {
+  color: cadetblue;
 }
 
 body {
