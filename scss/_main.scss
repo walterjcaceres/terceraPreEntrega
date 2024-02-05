@@ -16,6 +16,8 @@ h1{
 
   }
 
+
+
 .imagen img {
   height: 300px;
 }
@@ -26,7 +28,8 @@ h1{
   }
   
   .portada {
-    height: 500px;
+    height: 480px;
+    object-fit: cover;
   }
   
   .textoCarousel {
@@ -41,3 +44,8 @@ h1{
   .verMas{
     font-size: larger;
   }
+
+ .desborde{
+  width: 100%;
+  
+ }

@@ -54,7 +54,8 @@ h1 {
 }
 
 .portada {
-  height: 500px;
+  height: 480px;
+  object-fit: cover;
 }
 
 .textoCarousel {
@@ -69,6 +70,10 @@ a {
 
 .verMas {
   font-size: larger;
+}
+
+.desborde {
+  width: 100%;
 }
 
 footer {
@@ -95,6 +100,7 @@ footer a .bi-twitter:hover {
 
 body {
   font-family: "Roboto", sans-serif;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=style.css.map */
